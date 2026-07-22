@@ -8,16 +8,14 @@ L'objectiu principal ha estat aprendre a dissenyar, gestionar i consultar bases 
 
 ---
 
-## 📁 Contingut del Repositori
+## Contingut del Repositori
 
-### 1. SQL (`/SQL`)
-* **Consultes SQL**: Exercicis pràctics de consulta, filtratge i agregació de dades.
-* **Dumps i Credencials**: Scripts de creació i gestió de bases de dades relacionals.
-* **Google Colab (BBDD)**: Notebooks d'integració i execució de SQL directament en entorn de Python.
-* **Projecte SQL**: Entrega pràctica de disseny i manipulació de dades relacionals.
+### 1. Base de Dades Relacional (SQL / MariaDB)
+Projecte centrat en el disseny i gestió d'una base de dades relacional per a la gestió d'un **restaurant**:
+* `DB_Restaurant.sql`: Script SQL complet per a la creació de l'estructura de les taules i la inserció de dades en **MariaDB**.
+* `Esquema i Llista Consultes SQL.docx`: Documentació de l'esquema relacional i recull de consultes SQL realitzades sobre la base de dades del restaurant.
 
-### 2. NoSQL (`/NoSQL`)
-* **MongoDB**: Introducció al disseny de bases de dades orientades a documents (`MongoDB.ipynb`).
-* **Agregacions i Índexs**: Teoria i pràctica sobre pipelines d'agregació i optimització de consultes NoSQL.
-* **Datasets i Exercicis**: Manipulació de dades reals (p. ex., `censo-ganado.json`) i ús d'interfícies interactives (`ipywidgets`).
-* **Projecte NoSQL**: Entrega pràctica de gestió de dades no relacionals.
+### 2. Base de Dades No Relacional (NoSQL / MongoDB)
+Model del mateix restaurant en NoSQL i pràctiques d'agregació avançada:
+* `Restaurant_NoSQL_MongoDB_consultes.ipynb`: Notebook de Google Colab amb la implementació del model del restaurant en **MongoDB**, incloent les consultes NoSQL integrades i executables directament.
+* `Exercici_MongoDB/`: Carpeta amb un exercici pràctic d'anàlisi de dades basat en el dataset `censo-ganado.json`, utilitzant consultes i operacions d'agregació en MongoDB.
